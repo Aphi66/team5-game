@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: team33-neogym:latest #docker image name
+         name: team5-game:latest #docker image name
          source: build
          build:
-            path: ~/team33-neogym #path ที่เก็บไฟล์ sourcecode 
+            path: ~/team5-game #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
